@@ -1,0 +1,35 @@
+{
+  "name": "exel_course",
+  "version": "1.0.0",
+  "description": "My try learn JS by Minin`s course",
+  "private": true,
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "bild": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SunBro-Marko/exel-course.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "exel"
+  ],
+  "author": "Mikhail Alenin <sunbro.marko@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SunBro-Marko/exel-course/issues"
+  },
+  "homepage": "https://github.com/SunBro-Marko/exel-course#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.0.3",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
